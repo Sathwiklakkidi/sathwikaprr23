@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-25</title>
+    <style>
+        .rb{
+            background-image: linear-gradient(to right, violet, indigo, blue, green,yellow, orange ,red);
+            width: 400px ;
+            height: 100px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 400px;
+        }
+        .rg{
+          
+            width: 500px ;
+            height: 200px;
+            margin: 10px 300px;
+            animation-name: waves;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes waves {
+            0%{
+                background-image:radial-gradient(rgb(118, 75, 238) 4% , rgb(43, 156, 232) 20%, rgb(53, 53, 213) 50%,skyblue 75%, rgb(86, 86, 255) 90%,navy 100%);
+            }
+            50%{
+                background-image:radial-gradient(rgb(118, 75, 238) 5% , rgb(43, 156, 232) 30%, rgb(53, 53, 213) 55%,skyblue 75%, rgb(86, 86, 255) 90%,navy 100%);
+            }
+            75%{
+                background-image:radial-gradient( rgb(118, 75, 238)7% , rgb(43, 156, 232) 40%, rgb(53, 53, 213) 50%,skyblue 85%, rgb(86, 86, 255) 99%,navy 100%);
+            }
+            100%{
+                background-image:radial-gradient( rgb(118, 75, 238)10% , rgb(43, 156, 232) 50%, rgb(53, 53, 213) 60%,skyblue 75%, rgb(86, 86, 255) 100%,navy 100%);
+            }
+        }
+
+
+
+        .kk{
+           border: 1px solid black;
+            border-radius: 50%;
+            height:500px;
+            width: 300px;
+            margin: 10px 450px;
+            position: relative;
+            background-image: conic-gradient(rgb(200, 14, 14) 0deg,rgb(107, 44, 214) 140deg,rgb(47, 189, 54) 140deg,rgb(116, 21, 154) 240deg, rgb(152, 184, 25) 240deg, rgb(197, 33, 164) 340deg, rgb(47, 11, 228) 340deg, rgb(235, 14, 102) 360deg );
+        }
+        .ex{
+            position: absolute;
+            left: 700px;
+            top: 10px;
+        }
+        #h{
+            display: inline-block;
+            background-color: brown;
+            border: 1px solid brown;
+            width: 20px;
+            height: 20px;
+        }
+        #hh{
+            display: inline-block;
+            background-color:skyblue;
+            border: 1px solid skyblue;
+            width: 20px;
+            height: 20px;
+        }
+        #hhh{
+            display: inline-block;
+            background-color: green;
+            border: 1px solid green;
+            width: 20px;
+            height: 20px;
+        }
+        #hhhh{
+            display: inline-block;
+            background-color: orange;
+            border: 1px solid orange;
+            width: 20px;
+            height: 20px;
+        }
+      
+
+        .prabhas{
+            margin: 100px 700px ;
+            -webkit-box-reflect: left 20px;
+           height: 150px;;
+        }
+
+    </style>
+</head>
+<body>
+   <center> <h1>Linear gradient </h1></center>
+    <div class="rb"><h1>Rainbow colors</h1></div>
+
+
+    <br><br><br>
+<center> <h1>Radient </h1></center>
+    <div class="rg">
+
+    </div>
+
+    <br> <br>
+
+
+
+    <center> <h1>Conical gradient </h1></center>
+    <div class="kk">
+<div class="diff">
+<pre style="font-size: xx-large; color: rgb(12, 5, 5);">
+          
+      20%                              
+                       
+             
+                       
+              
+    40%       30%
+                       
+                          
+                
+                   
+                          
+        10%         
+</pre>
+</div>
+        <div class="ex">
+            <h3><span id="h"></span> math</h3>
+            <h3><span id="hh"></span> phy</h3>
+            <h3><span id="hhh"></span>eng </h3>
+            <h3><span id="hhhh"></span>bio</h3>
+        </div>
+
+    </div>
+    <br>
+
+    <center><h1>Reflex</h1></center>
+
+    <div class="prabhas">
+        <img src="./prabhas.jpeg" alt="">
+    </div>
+</body>
+</html>
